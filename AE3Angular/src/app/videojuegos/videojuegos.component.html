@@ -1,8 +1,8 @@
+<!-- de esta forma invocamos al componente usuario, para que sea mostrado cuando llamemos al componente videojuegos
+este componente tendrá el usuario y su password-->
+<app-usuario></app-usuario>
 
 <div class="videojuegos">
-
-   <!-- <img [src]="imagen"> -->
-
    <table>
     <thead>
         <tr>
@@ -12,29 +12,22 @@
             <th>OPCIÓN</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody> <!-- Aquí vamos a crear un for, para recorrer y mostrar toda la lista de videojuegos, mostrando en una tabla
+    únicamente lo que nos solicita el ejercicio + un botón de detalles que nos mostrará todos los atributos de los videjuegos-->
         <tr *ngFor="let juego of listaVideojuegos">
             <td>{{juego.id}}</td>
             <td><b>{{juego.titulo}}</b></td>
             <td>{{juego.valoracionMedia}}</td>
-            <td><a href="#">Detalle</a></td>
+            <td><button routerLink="/detalles" class="learn-more">
+                <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Saber más</span>
+              </button></td>
         </tr>
     </tbody>
+
    </table>
-
-
-
-
-   <!-- aqui es para sacar todos los atributos de cada videojuego
-    <ul>
-        <li *ngFor="let juego of listaVideojuegos; index as i">
-            Iteración: {{i}} => ID: {{juego.id}} - Titulo: {{juego.titulo}} - Imagen: <img [src]="imagen100"> - Valoración: {{juego.valoracionMedia}}
-        </li>
-    </ul>
-    -->
-    
-
-
 
 </div>
 

@@ -7,11 +7,16 @@ import { Component } from '@angular/core';
 })
 export class UsuarioComponent {
 
+  /* 
+  Hemos creado un usario por defecto, dándole los valores en el constructor
+  */
+
   nombreUsuario: String;
   password: String;
 
 
   constructor(){
+    
     this.nombreUsuario = "JavierCalzadoLp"
     this.password="1234"
 

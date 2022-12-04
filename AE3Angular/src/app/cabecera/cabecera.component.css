@@ -1,10 +1,13 @@
+
+
 h1{
     text-align: center;
     color: #282866;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .cabecera{
-    border: 2px solid navy;
+    border: 1px solid navy;
     border-radius: 4px;
 }
 

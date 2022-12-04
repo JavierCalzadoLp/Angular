@@ -12,6 +12,7 @@ import { UsuarioComponent } from './usuario/usuario.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { LoginComponent } from './login/login.component';
+import { DetallesComponent } from './detalles/detalles.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { LoginComponent } from './login/login.component';
     ContactoComponent,
     NosotrosComponent,
     LoginComponent,
+    DetallesComponent,
   ],
   imports: [
     BrowserModule,
