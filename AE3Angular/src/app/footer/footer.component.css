@@ -1,0 +1,46 @@
+h1{
+    
+    text-align: center;
+    color: #282866;
+}
+.divFooter{
+    border: 2px solid navy;
+    border-radius: 4px;
+
+}
+.caja1{
+    color: white;
+    text-align: left;
+    margin-left: 96px;
+    cursor: pointer;
+  }
+  .caja2{
+    color: white;
+    text-align: left;
+    cursor: pointer;
+  }
+  .caja3{
+    color: white;
+    text-align: left;
+    cursor: pointer;
+  }
+  .caja4{
+    color: white;
+    text-align: left;
+    cursor: pointer;
+  }
+  .caja5{
+    color: #FBBC05;
+    text-align: left;
+    margin-right: 96px;
+    cursor: pointer;
+  }
+  
+  footer{
+    display: flex;
+    justify-content: space-between;
+    background: #282866;
+    font-family: Arial; 
+    line-height: 80%;
+    font-size: smaller;
+  }

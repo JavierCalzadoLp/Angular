@@ -1,0 +1,32 @@
+.nosotros{
+    display: inline-block;
+    
+}
+
+
+h1{
+    text-align: center;
+    color: #282866;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+h2{
+    text-align: left;
+    color: #282866;
+    margin-left: 40px;
+}
+p{
+    color: #282866;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+button{
+    
+    text-align: center;
+}
+
+.btn{
+    margin-left: 50%;
+}
